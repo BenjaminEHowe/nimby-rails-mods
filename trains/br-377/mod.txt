@@ -1,0 +1,58 @@
+[ModMeta]
+schema=1
+name=BR Class 377 "Electrostar"
+author=Benjamin Howe (www.beh.uk)
+desc=The British Rail Class 377 Electrostar is a British dual-voltage electric multiple-unit passenger train (EMU) built by Bombardier Transportation at its Derby Litchurch Lane Works from 2001 to 2014. The Electrostar family is the most numerous type of EMU built in the post-privatisation period of Britain's railways.
+version=2021-02-16T21:59:22
+
+[TrainUnit]
+schema=1
+id=uk.beh.nimby-rails-mods.trains.br-377.head
+name_loc=uk.beh.nimby-rails-mods.trains.br-377.head.name
+name_en=BR Class 377 "Electrostar" Head
+length=20.4
+width=2.8
+max_speed=161
+power=200
+empty_mass=46300
+price=2000000
+max_pax=120
+cost_per_km_per_pax=0.05
+cost_per_day=500
+tex_base=head-base.png
+tex_top=head-top.png
+tex_decors=head-decor-01.png,head-decor-02.png
+tex_m_width=30
+tex_m_height=3.75
+
+[TrainUnit]
+schema=1
+id=uk.beh.nimby-rails-mods.trains.br-377.car
+name_loc=uk.beh.nimby-rails-mods.trains.br-377.car.name
+name_en=BR Class 377 "Electrostar" Carriage
+length=20.4
+width=2.8
+max_speed=161
+power=400
+empty_mass=40500
+price=2000000
+max_pax=120
+cost_per_km_per_pax=0.05
+cost_per_day=700
+tex_base=car-base.png
+tex_top=car-top.png
+tex_decors=car-decor-01.png,car-decor-02.png
+tex_m_width=30
+tex_m_height=3.75
+
+[TrainMultipleUnit]
+schema=1
+id=uk.beh.nimby-rails-mods.trains.br-377.mu
+name_loc=uk.beh.nimby-rails-mods.trains.br-377.mu.name
+name_en=BR Class 377 "Electrostar"
+head_id=uk.beh.nimby-rails-mods.trains.br-377.head
+car_id=uk.beh.nimby-rails-mods.trains.br-377.car
+tail_id=uk.beh.nimby-rails-mods.trains.br-377.head
+tail_flip=true
+min_cars=1
+max_cars=10
